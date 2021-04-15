@@ -1,0 +1,15 @@
+site_name: "appTest"
+site_project_description: "This is an application with a pair of servers one webserver and one application server"
+
+nav:
+  - Introduction: index.md
+  - Contact Information: contact_information.md
+  - Infrastructure Environment: infrastructure_environment.md
+  - System Monitoring: system_monitoring.md
+  - Data Center Shipping Procedures: datacenter_shipping_procedures.md
+  - Reference Material: reference_material.md
+  - Citrix Installation Procedures: citrix_installation_procedures.md
+
+plugins:
+  - techdocs-core
+  # - macros ### Move to local generator for testing 

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "appTest"
+  description: "This is an application with a pair of servers one webserver and one application server"
+  annotations:
+    github.com/project-slug: DXC-AAI/apptest
+    backstage.io/techdocs-ref: url:https://github.com/DXC-AAI/apptest
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "biancoda"
